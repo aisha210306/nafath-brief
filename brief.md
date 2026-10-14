@@ -21,10 +21,19 @@ An Android government login application should request runtime permissions only 
 Resource: Android Developers - https://developer.android.com/training/permissions/requesting
 
 ## Networking
+DNS over HTTPS (DoH) sends DNS queries through an encrypted HTTPS connection between a device and a DNS resolver. This helps prevent other parties on the network from easily reading or modifying DNS requests. However, DoH does not encrypt all internet traffic or hide the user's IP address. The DNS resolver can still see the queries, and other information may reveal which services the user accesses.
+
+Resource: Cloudflare - What is DNS over HTTPS? - https://developers.cloudflare.com/1.1.1.1/encryption/dns-over-https/
 
 ## Cybersecurity
+Phishing-resistant authentication helps protect government accounts against fake login pages and stolen passwords. Passkeys using FIDO2 or WebAuthn can resist phishing because authentication is tied to the legitimate website or service. Hardware security keys are another strong option. By contrast, SMS codes and ordinary one-time passwords can still be stolen or relayed through phishing. Multi-factor authentication improves security, but not every MFA method is phishing-resistant.
+
+Resource: CISA - Implementing Phishing-Resistant MFA - https://www.cisa.gov/resources-tools/resources/implementing-phishing-resistant-mfa
 
 ## Data
+Under Oman's Personal Data Protection Law (Royal Decree 6/2022), the authority must process citizens' personal data lawfully and transparently, collect only data needed for specified purposes, and protect it from unauthorized access or disclosure. It should provide required privacy information and obtain consent where the law requires it. The authority must also respect data-subject rights and follow applicable rules for processing sensitive data and transferring personal data outside Oman.
+
+Resource: Oman Ministry of Transport, Communications and Information Technology - Personal Data Protection Law - https://www.mtcit.gov.om/ITAPortal/Pages/Page.aspx?NID=1736
 
 ## Misconception in My Track
 
