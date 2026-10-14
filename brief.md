@@ -36,5 +36,8 @@ Under Oman's Personal Data Protection Law (Royal Decree 6/2022), the authority m
 Resource: Oman Ministry of Transport, Communications and Information Technology - Personal Data Protection Law - https://www.mtcit.gov.om/ITAPortal/Pages/Page.aspx?NID=1736
 
 ## Misconception in My Track
+A common misconception is that an AI system that achieves high accuracy is automatically safe and reliable enough to flag suspicious government logins. Accuracy alone does not show whether the system produces unfair errors, exposes personal information, or performs poorly on unfamiliar data. The NIST AI Risk Management Framework explains that trustworthy AI requires attention to characteristics such as validity and reliability, security and resilience, accountability, transparency, privacy, and fairness. Therefore, the authority should evaluate multiple risks before deployment and monitor the system during operation, rather than relying on accuracy alone.
 
+Evidence: NIST AI RMF 1.0, Section 3 - Characteristics of Trustworthy AI.
 ## Open Question
+How can the authority balance early detection of suspicious logins with citizens’ privacy and the risk of incorrectly flagging legitimate users?
